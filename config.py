@@ -1,2 +1,2 @@
-BOT_TOKEN = "8543415296:AAGRyPJG-B7XislNs_RrDwtTdtP_ilWMKxc"
-ADMIN_ID = 6727753819
+BOT_TOKEN = "*************************"
+ADMIN_ID = ###########
