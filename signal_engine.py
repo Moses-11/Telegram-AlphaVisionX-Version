@@ -21,6 +21,7 @@ ASSETS_OTC = [
     "LBP/USD OTC"
 ]
 
+//Signal Engine-Simple Construct
 def generate_signal(settings):
     assets = ASSETS_OTC
     
