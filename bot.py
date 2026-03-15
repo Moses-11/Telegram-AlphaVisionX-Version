@@ -199,7 +199,6 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "USDT(Tether TRC-20): TNCx1T85prqHHTcPDgqm8tBMdLjjvGfGSf\n\n"
             "Binance Smart Chain (BEP-20): 0xb63c0270b7c9b657413009a7859f31abcfca5f15\n\n"
             "Bitcoin: 12teRe5nKjfK3wfySScrwasKuBAxESrvAc\n\n"
-            "Paypal: cmozzy001@gmail.com\n\n"
             "After you pay, contact me through Telegram with payment screenshot for the access key, my username is @binaryoptionstrader11",
             reply_markup=main_menu()
         )
