@@ -3,7 +3,7 @@ DEFAULT_SETTINGS = {
     "accuracy": 0.85,
     "expiry time": "M1",
     "payout": 85,
-    "profit": 0.85,
+    "profit": 0.85
 }
 
 
