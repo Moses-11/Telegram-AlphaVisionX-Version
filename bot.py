@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger()
 
-BOT_TOKEN = "8543415296:AAGRyPJG-B7XislNs_RrDwtTdtP_ilWMKxc"
+BOT_TOKEN = "*********************************************"
 
 access_keys = {
     "AVX-9F3K-Q2LM-30D": {
@@ -29,7 +29,7 @@ access_keys = {
 }
 
 users = {
-    6727753819: {
+    "************": {
         "free_used": 20,
         "is_subscribed": True,
         "expires_at": "2026-02-25"
@@ -42,9 +42,9 @@ def generate_key(days: int):
     return f"AVX-{part1}-{part2}-{days}D"
 
 async def genkey(update, context):
-    ADMIN_IDS = [6727753819]  # your Telegram ID
+    ADMIN_IDS = ["***********"]
     
-    days = 30
+    days = 365
  
     key = generate_key(days)
 
@@ -77,7 +77,7 @@ app = ApplicationBuilder().token(BOT_TOKEN).build()
 app.add_handler(CommandHandler("genkey", genkey))
     
 async def activate(update, context):
-    ADMIN_IDS = [6727753819]
+    ADMIN_IDS = ["************"]
     user_id = update.effective_user.id
     
     users[user_id] = {
